@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+  }
+  .question{
+    font-weight: 600;
+    font-size: 28px;
+    margin: 20px;
+  }
+  .answers {
+      margin: 20px;  
+      display: block;
+      font-size: 22px;
+  }
+  section{
+    padding-bottom: 20px;
+  }
+  hr{
+    margin-top: 25px;
+  }
+
+.divLocal {
+  display: none;
+  text-align: center;
+}
+
+.divApi {
+  display: none;
+}
+  
+input:invalid + span::after {
+  position: relative;
+  content: "invalid url";
+  padding-left: 3px;
+  font-size: 14px;
+}
+
+.divLocal input {
+  font-size: 22px;
+  color: red;
+}
+.divApi input {
+  margin-top: 25px;
+  font-size: 18px;
+  color: rgb(86, 10, 158);
+}
+
+#welcome {
+  text-align: center;
+}
+#filesList {
+  text-align: center;
+}
+

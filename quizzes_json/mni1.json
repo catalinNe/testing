@@ -1,0 +1,19 @@
+[
+    {
+        "question": " Q1. blalbalblalbal",
+        "answers": [
+            {
+                "right": "<>"
+            },
+            {
+                "right": "~"
+            },
+            {
+                "wrong": "==!"
+            },
+            {
+                "right": "!=="
+            }
+        ]
+    }
+]
