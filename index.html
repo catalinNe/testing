@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzer - practice with random questions</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="section" id="welcome">
+        <h4>LAST EDIT: 2022-11-27 at 16:10<h4>
+        <h1>Welcome</h1>
+        <h3>This app help test your knowledge by taking a predefined quizz you provide as JSON and picking questions at random for you to answers and tracking your score.
+        </h3>
+            <h4><i>You can find more details in the <a href="README.md">README file</a>.</i></h4>
+        
+        <button id="startApp">Ready to start?</button>
+    </div>
+    <!-- <div class="pre-quiz-wrap">
+        
+        <div class="divLocal section">
+            <hr>
+        <h3>Select local valid JSON files to load questions from them</h3>
+        <input type="file" name="inputFile" id="inputFile" multiple></input>
+        
+        </div>
+        
+    </div> -->
+    <div class="section">
+        <div id="createList"><hr><h3>Use own files to practice</h3>
+        
+            <div><input type="file" name="inputFile" id="inputFile" multiple></input></div>
+            <div id="customList"></div>
+            <div><button id="loadQuiz">Start practicing</button></div>
+        </div>
+
+        <div id="filesList"></div> 
+
+        <button id="startQuiz">Start demo</button>
+    </div>
+    <div id="quiz"></div>
+        <button class='mainButton quizButton' id="submit">Submit answer</button>
+        <button class='quizButton' id="checkAnswers" title="Sure you wanna do that? Every check counts as a wrong answerr" disabled>Check
+        answers</button>
+        <button class='quizButton' id="revealAnswers">Reveal all answers</button>
+        <button class='quizButton' id="skip">Skip question</button>
+
+    <div id="counters"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
